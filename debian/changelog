@@ -1,0 +1,42 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon1) tambora; urgency=low
+
+  * Import from Elementary OS 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 08 Apr 2015 10:57:13 +0700
+
+pantheon-greeter (2.0.0+r354+pkg39~ubuntu15.04.1) vivid; urgency=low
+
+  * Auto build.
+
+ -- Launchpad Package Builder <noreply@launchpad.net>  Mon, 06 Apr 2015 21:50:21 +0000
+
+pantheon-greeter (2.0.0) trusty; urgency=low
+
+  * New upstream release
+
+ -- Cody Garver <cody@elementaryos.org>  Mon, 06 Apr 2015 16:34:12 -0500
+
+pantheon-greeter (1.0.2) precise; urgency=low
+
+  * New upstream release
+
+ -- Cody Garver <cody@elementaryos.org>  Tue, 23 Jul 2013 05:09:58 -0500
+
+pantheon-greeter (1.0.1) precise; urgency=low
+
+  * New upstream release
+
+ -- Cody Garver <cody@elementaryos.org>  Thu, 20 Jun 2013 04:06:14 -0500
+
+pantheon-greeter (1.0) precise; urgency=low
+
+  * New upstream release
+  * Full rewrite
+
+ -- Cody Garver <cody@elementaryos.org>  Wed, 12 Jun 2013 00:36:54 -0500
+
+pantheon-greeter (0.1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 24 Sep 2011 00:06:23 +0400
