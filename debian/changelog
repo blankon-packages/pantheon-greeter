@@ -1,3 +1,9 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon2) tambora; urgency=medium
+
+  * Set default wallpapers: x_wallpaper.png 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 13 Apr 2015 11:34:31 +0700
+
 pantheon-greeter (2.0.0+r354+pkg39-blankon1) tambora; urgency=low
 
   * Import from Elementary OS 
