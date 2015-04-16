@@ -1,3 +1,9 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon5) tambora; urgency=medium
+
+  * change default wallpaper: OIX.png
+
+ -- Mahyuddin <yudi.al@gmail.com>  Thu, 16 Apr 2015 22:03:59 +0700
+
 pantheon-greeter (2.0.0+r354+pkg39-blankon4) tambora; urgency=medium
 
   * Rebuild 
