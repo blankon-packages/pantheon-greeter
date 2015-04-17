@@ -1,0 +1,65 @@
+diff -Naur pantheon-greeter-2.0.0.354.39.orig/data/pantheon-greeter.conf pantheon-greeter-2.0.0.354.39/data/pantheon-greeter.conf
+--- pantheon-greeter-2.0.0.354.39.orig/data/pantheon-greeter.conf	2015-04-07 04:50:17.000000000 +0700
++++ pantheon-greeter-2.0.0.354.39/data/pantheon-greeter.conf	2015-04-18 01:19:45.966837000 +0700
+@@ -1,6 +1,6 @@
+ [greeter]
+ #activate-numlock=true
+-#default-wallpaper=/usr/share/backgrounds/elementaryos-default
++default-wallpaper=/usr/share/backgrounds/greeter.png
+ #high-contrast=false
+ #onscreen-keyboard=false
+ #screensaver-timeout=60
+diff -Naur pantheon-greeter-2.0.0.354.39.orig/src/LoginBox.vala pantheon-greeter-2.0.0.354.39/src/LoginBox.vala
+--- pantheon-greeter-2.0.0.354.39.orig/src/LoginBox.vala	2015-04-07 04:50:17.000000000 +0700
++++ pantheon-greeter-2.0.0.354.39/src/LoginBox.vala	2015-04-18 03:38:14.197395865 +0700
+@@ -356,7 +356,7 @@
+         void create_entry_dummy () {
+             var dummy = new Grid ();
+             dummy.hexpand = true;
+-            dummy.margin_top = 8;
++            dummy.margin_top = 4;
+             grid.attach (dummy, 0, 0, 1, 1);
+         }
+ 
+@@ -365,7 +365,7 @@
+             settings.margin_left = 5;
+             settings.margin_top = 6;
+             settings.relief = ReliefStyle.NONE;
+-            settings.add (new Image.from_icon_name ("application-menu-symbolic", IconSize.MENU));
++            settings.add (new Image.from_icon_name ("open-menu", IconSize.MENU));
+             settings.valign = Align.START;
+             settings.set_size_request (30, 30);
+             grid.attach (settings, 1, 0, 1, 1);
+diff -Naur pantheon-greeter-2.0.0.354.39.orig/src/PantheonGreeter.vala pantheon-greeter-2.0.0.354.39/src/PantheonGreeter.vala
+--- pantheon-greeter-2.0.0.354.39.orig/src/PantheonGreeter.vala	2015-04-07 04:50:17.000000000 +0700
++++ pantheon-greeter-2.0.0.354.39/src/PantheonGreeter.vala	2015-04-18 02:52:59.006986929 +0700
+@@ -343,8 +343,8 @@
+     Gdk.get_default_root_window ().set_cursor (new Gdk.Cursor (Gdk.CursorType.LEFT_PTR));
+ 
+     var settings = Gtk.Settings.get_default ();
+-    settings.gtk_theme_name = "elementary";
+-    settings.gtk_icon_theme_name = "elementary";
++    settings.gtk_theme_name = "Adwaita";
++    settings.gtk_icon_theme_name = "hicolor";
+     settings.gtk_font_name = "Droid Sans";
+     settings.gtk_xft_dpi= (int) (1024 * 96);
+     settings.gtk_xft_antialias = 1;
+diff -Naur pantheon-greeter-2.0.0.354.39.orig/src/PantheonUser.vala pantheon-greeter-2.0.0.354.39/src/PantheonUser.vala
+--- pantheon-greeter-2.0.0.354.39.orig/src/PantheonUser.vala	2015-04-07 04:50:17.000000000 +0700
++++ pantheon-greeter-2.0.0.354.39/src/PantheonUser.vala	2015-04-18 03:06:28.089432037 +0700
+@@ -49,7 +49,7 @@
+     }
+ 
+     public string get_markup () {
+-        return "<span face='Open Sans Light' font='24'>"
++        return "<span face='Open Sans Light' font='18'>"
+                             + display_name + "</span>";
+     }
+ 
+@@ -239,4 +239,4 @@
+             return false;
+         });
+     }
+-}
+\ No newline at end of file
++}

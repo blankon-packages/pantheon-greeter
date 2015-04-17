@@ -1,3 +1,11 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon6) tambora; urgency=medium
+
+  * debian/patches :
+    - 99_blankon-icon.patch
+  * added greeter.png
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 18 Apr 2015 04:34:56 +0700
+
 pantheon-greeter (2.0.0+r354+pkg39-blankon5) tambora; urgency=medium
 
   * change default wallpaper: OIX.png

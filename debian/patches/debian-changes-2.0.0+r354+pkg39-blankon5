@@ -1,0 +1,34 @@
+Description: Upstream changes introduced in version 2.0.0+r354+pkg39-blankon5
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ pantheon-greeter (2.0.0+r354+pkg39-blankon5) tambora; urgency=medium
+ .
+   * change default wallpaper: OIX.png
+ .
+ The person named in the Author field signed this changelog entry.
+Author: Mahyuddin <yudi.al@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- pantheon-greeter-2.0.0+r354+pkg39.orig/data/pantheon-greeter.conf
++++ pantheon-greeter-2.0.0+r354+pkg39/data/pantheon-greeter.conf
+@@ -1,6 +1,6 @@
+ [greeter]
+ #activate-numlock=true
+-#default-wallpaper=/usr/share/backgrounds/elementaryos-default
++default-wallpaper=/usr/share/backgrounds/OIX.png
+ #high-contrast=false
+ #onscreen-keyboard=false
+ #screensaver-timeout=60
