@@ -1,3 +1,9 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon8) tambora; urgency=medium
+
+  * Make BlankOn AutoLogin 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sat, 02 May 2015 17:34:50 +0700
+
 pantheon-greeter (2.0.0+r354+pkg39-blankon7) tambora; urgency=medium
 
   * Fix user-session 
