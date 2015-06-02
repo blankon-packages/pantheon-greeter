@@ -1,2 +1,3 @@
 debian/40-pantheon-greeter.conf /usr/share/lightdm/lightdm.conf.d/
 debian/greeter.png /usr/share/backgrounds/
+debian/grub.png /usr/share/backgrounds/
