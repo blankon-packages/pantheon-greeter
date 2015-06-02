@@ -1,3 +1,9 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon10) tambora; urgency=medium
+
+  * change background greeter.png
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 02 Jun 2015 12:48:56 +0700
+
 pantheon-greeter (2.0.0+r354+pkg39-blankon9) tambora; urgency=medium
 
   * Rebuild
