@@ -1,0 +1,11 @@
+diff -Naur pantheon-greeter-2.0.0.354.39.orig/data/pantheon-greeter.conf pantheon-greeter-2.0.0.354.39/data/pantheon-greeter.conf
+--- pantheon-greeter-2.0.0.354.39.orig/data/pantheon-greeter.conf	2015-04-07 04:50:17.000000000 +0700
++++ pantheon-greeter-2.0.0.354.39/data/pantheon-greeter.conf	2015-06-10 22:36:38.355153702 +0700
+@@ -1,6 +1,6 @@
+ [greeter]
+ #activate-numlock=true
+-#default-wallpaper=/usr/share/backgrounds/elementaryos-default
++default-wallpaper=/usr/share/backgrounds/Pohon.png
+ #high-contrast=false
+ #onscreen-keyboard=false
+ #screensaver-timeout=60
