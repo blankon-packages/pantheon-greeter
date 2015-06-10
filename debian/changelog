@@ -1,3 +1,10 @@
+pantheon-greeter (2.0.0+r354+pkg39-blankon13) tambora; urgency=medium
+
+  * debian/patch:
+    - blankon_config_background.patch
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 10 Jun 2015 23:26:48 +0700
+
 pantheon-greeter (2.0.0+r354+pkg39-blankon12) tambora; urgency=medium
 
   * link background greeter.png
